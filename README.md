@@ -8,7 +8,7 @@ The required packages to run the code are in [requirements](requirements.txt)
 ## Create synthetic graphs
 In order to create synthetic graphs to train and test the model, navigate to ../data/final_datasets folder and run 
 ```sh
-  python create_graph_2.py --num_nodes 5000 --max_rel_for_node 3 --metapath red-red-blue
+  python create_graph_multi_metapath_deterministic.py --num_nodes 5000 --max_rel_for_node 3 --metapath red-red-blue
 ```
 
 * num_nodes: total number of nodes in the graph
